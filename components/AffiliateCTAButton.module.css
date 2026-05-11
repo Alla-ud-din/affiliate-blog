@@ -1,0 +1,46 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.12s;
+  background: var(--gold);
+  color: var(--espresso);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.sm {
+  font-size: 0.78rem;
+  padding: 8px 16px;
+  letter-spacing: 0.04em;
+}
+
+.lg {
+  font-size: 1rem;
+  padding: 16px 32px;
+  letter-spacing: 0.02em;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.sm .icon {
+  width: 14px;
+  height: 14px;
+}

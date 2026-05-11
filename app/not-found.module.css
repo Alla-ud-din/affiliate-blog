@@ -1,0 +1,36 @@
+.main {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.code {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  color: var(--gold);
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--espresso);
+  margin-bottom: 12px;
+}
+
+.sub {
+  color: var(--warm-gray);
+  margin-bottom: 32px;
+}
+
+.back {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 0.04em;
+  transition: color 0.15s;
+}
+
+.back:hover {
+  color: var(--espresso);
+}

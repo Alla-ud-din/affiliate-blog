@@ -1,0 +1,354 @@
+.main {
+  min-height: 100vh;
+}
+
+/* Sticky top bar */
+.topBar {
+  background: var(--espresso);
+  color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.topBar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.topBar p {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.75);
+}
+
+.topBar strong {
+  color: #fff;
+}
+
+/* Article */
+.article {
+  padding: 60px 0 80px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.category {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  color: var(--espresso);
+  margin-bottom: 16px;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.excerpt {
+  font-size: 1.1rem;
+  color: var(--warm-gray);
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+/* Hero image */
+.heroImg {
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0;
+  aspect-ratio: 16/9;
+  background: #f0ebe3;
+}
+
+.heroImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Above-the-fold CTA row — right below hero image */
+.heroCta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0 40px;
+}
+
+.heroCtaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  background: var(--gold);
+  color: var(--espresso);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background 0.15s, transform 0.12s;
+  white-space: nowrap;
+}
+
+.heroCtaBtn:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+.heroCtaBtn:active {
+  transform: translateY(0);
+}
+
+.imgCaption {
+  font-size: 0.75rem;
+  color: var(--warm-gray);
+}
+
+/* Intro */
+.intro {
+  margin: 32px 0;
+}
+
+.intro p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--ink);
+}
+
+/* Benefits */
+.benefits {
+  background: linear-gradient(135deg, #fdf5e8 0%, #faf7f2 100%);
+  border: 1px solid rgba(200,149,42,0.2);
+  border-radius: 4px;
+  padding: 36px 40px;
+  margin: 40px 0;
+}
+
+.benefits h2 {
+  font-size: 1.5rem;
+  color: var(--espresso);
+  margin-bottom: 24px;
+}
+
+.benefits ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.benefits li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  font-size: 0.97rem;
+  line-height: 1.65;
+}
+
+.benefitIcon {
+  color: var(--gold);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.benefitsBtn {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 28px;
+  padding: 13px 28px;
+  background: var(--gold);
+  color: var(--espresso);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 3px;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: background 0.15s, transform 0.12s;
+}
+
+.benefitsBtn:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+/* Floating bar — mobile only */
+.floatingBar {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  background: var(--espresso);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 12px 16px;
+  box-shadow: 0 -4px 24px rgba(26,18,8,0.2);
+}
+
+.floatingInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.floatingLabel {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.65);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
+}
+
+.floatingBtn {
+  flex-shrink: 0;
+  padding: 10px 22px;
+  background: var(--gold);
+  color: var(--espresso);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.floatingBtn:hover {
+  background: var(--gold-light);
+}
+
+/* Why this */
+.whyThis {
+  margin: 40px 0;
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.whyThis h2 {
+  font-size: 1.6rem;
+  color: var(--espresso);
+  margin-bottom: 16px;
+}
+
+.whyThis h2 em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.whyThis p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--ink);
+}
+
+/* Secondary image */
+.secondaryImg {
+  margin: 40px 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.secondaryImg img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+/* CTA block */
+.ctaBlock {
+  background: var(--espresso);
+  color: #fff;
+  border-radius: 8px;
+  padding: 48px 40px;
+  text-align: center;
+  margin: 48px 0;
+}
+
+.ctaLabel {
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-bottom: 12px;
+}
+
+.ctaHeadline {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.ctaNote {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 28px;
+}
+
+.disclosure {
+  font-size: 0.72rem;
+  color: rgba(255,255,255,0.35);
+  margin-top: 20px;
+}
+
+/* Body prose */
+.body {
+  margin-top: 48px;
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--ink);
+}
+
+.body h2 {
+  font-size: 1.5rem;
+  color: var(--espresso);
+  margin: 40px 0 16px;
+}
+
+.body h3 {
+  font-size: 1.15rem;
+  color: var(--espresso);
+  margin: 28px 0 10px;
+}
+
+.body p { margin-bottom: 18px; }
+.body ul { padding-left: 20px; margin-bottom: 18px; }
+.body li { margin-bottom: 8px; }
+
+@media (max-width: 600px) {
+  .article { padding: 36px 0 100px; } /* extra bottom padding for floating bar */
+  .benefits { padding: 24px 20px; }
+  .ctaBlock { padding: 36px 20px; }
+  .ctaHeadline { font-size: 1.4rem; }
+  .topBar .container { justify-content: center; }
+  .heroCta { flex-direction: column; align-items: flex-start; }
+  .heroCtaBtn { width: 100%; justify-content: center; }
+  .floatingBar { display: block; }
+}

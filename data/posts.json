@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "insert-product-slug",
+    "title": "[INSERT PRODUCT NAME] — Review",
+    "excerpt": "The one thing [INSERT TARGET AUDIENCE] didn't know they were missing.",
+    "category": "[INSERT CATEGORY]",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=80",
+    "image2": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=900&q=80",
+    "affiliateUrl": "https://www.example.com/product?ref=YOUR-AFFILIATE-TAG",
+    "ctaLabel": "Check Price",
+    "intro": "We all know the feeling — [INSERT PROBLEM IN ONE SENTENCE]. It's the kind of frustration you live with until something finally solves it. That something is [INSERT PRODUCT NAME].",
+    "benefits": [
+      "✦ [Benefit 1: outcome-focused, not feature-focused]",
+      "✦ [Benefit 2: how it makes life easier/better]",
+      "✦ [Benefit 3: time/money/effort saved]",
+      "✦ [Benefit 4: emotional or lifestyle benefit]",
+      "✦ [Benefit 5: something unexpected or delightful]"
+    ],
+    "whyThis": "[INSERT WHY THIS PRODUCT SPECIFICALLY — what makes it stand out from alternatives. Be specific and honest. 2-3 sentences max.]",
+    "ctaHeadline": "See today's price",
+    "contentHtml": "<h2>Our Take</h2><p>[Insert 1–2 paragraphs of additional review content here. Keep it natural, specific, and honest. Mention real details about your experience or research.]</p><h2>Who Should Buy This</h2><p>[INSERT TARGET AUDIENCE description] who deal with [INSERT PROBLEM] daily will find this transforms their routine. It's not for everyone — if [INSERT EXCEPTION], you might look elsewhere. But if you're [INSERT QUALIFIER], this is the one.</p>"
+  },
+  {
+    "slug": "example-kitchen-product",
+    "title": "The Compact Air Fryer That Changed My Weeknights",
+    "excerpt": "For people who want crispy, healthy meals in under 15 minutes — without heating the whole oven.",
+    "category": "Kitchen",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80",
+    "affiliateUrl": "https://www.amazon.com/dp/B0EXAMPLE?tag=YOUR-AFFILIATE-TAG",
+    "ctaLabel": "Check Price",
+    "intro": "Busy weeknights used to mean takeout or sad, soggy reheats. This compact air fryer changed that completely — meals that actually taste good, in the time it takes to decompress from work.",
+    "benefits": [
+      "Dinner on the table in under 15 minutes — without babysitting the stove",
+      "Crispy textures you'd only expect from deep frying, with a fraction of the oil",
+      "Small enough to live on the counter permanently, not buried in a cabinet",
+      "Easy cleanup that doesn't ruin the satisfaction of cooking",
+      "Works for everything from frozen fries to fresh salmon and roasted vegetables"
+    ],
+    "whyThis": "Most air fryers are either too large for a small kitchen or too underpowered to actually crisp food. This model hits the sweet spot — 4-quart capacity fits a full meal for two, and the 1700W heating element means real results. It's the one we recommend to anyone who asks.",
+    "ctaHeadline": "Check the current price",
+    "contentHtml": "<h2>What We Actually Tested</h2><p>We ran this through three weeks of daily cooking — frozen appetizers, chicken thighs, Brussels sprouts, and even reheated pizza. The results were consistent every time: evenly crispy, properly cooked, and ready in the time it claimed.</p><h2>Who Should Buy This</h2><p>If you're cooking for one to two people and your kitchen is short on counter space, this is an easy recommendation. It won't replace a full oven for large batches, but for weeknight cooking, it's become indispensable.</p>"
+  },
+  {
+  "slug": "boho-throw-pillow-covers-neutral-farmhouse-decor-review",
+  "title": "Boho Throw Pillow Covers 18x18 Review: The Easiest Way to Make Your Living Room Look Designer-Styled",
+  "excerpt": "Your sofa can feel warm, cozy, and Pinterest-worthy in minutes—without buying new furniture.",
+  "category": "Home Decor",
+  "image": "/pin 3.png",
+  "image2": "",
+  "affiliateUrl": "",
+  "ctaLabel": "Shop Now",
+  "intro": "If your living room feels plain, unfinished, or missing that cozy designer touch, these boho throw pillow covers are a simple upgrade that instantly changes the vibe. With soft neutral tones, textured chenille tufting, and elegant striped detailing, they bring warmth, depth, and a high-end farmhouse-boho aesthetic to sofas, beds, and accent chairs—without requiring a full room makeover.",
+  "benefits": [
+    "Instantly upgrades plain sofas, beds, and chairs with a cozy boho aesthetic",
+    "Neutral color palette blends effortlessly with farmhouse, minimalist, earthy, and modern interiors",
+    "Textured chenille fabric adds visual depth and a premium handcrafted feel",
+    "Set of 2 makes styling easier and creates a balanced, designer-inspired setup",
+    "Perfect year-round decor piece that works across seasons without looking outdated"
+  ],
+  "whyThis": "Unlike overly colorful decorative pillows that can clash with your space, these covers feature timeless neutral shades that match almost any decor style. The layered woven textures and subtle striped detailing make them look far more premium than standard plain cushion covers, helping your space feel curated and cozy with minimal effort.",
+  "ctaHeadline": "Turn Your Couch Into a Cozy Pinterest-Worthy Corner",
+  "contentHtml": "<h2>Our Take</h2><p>These pillow covers stand out because they solve a common home decor problem: making a space feel styled without overspending. From the product images, the woven texture, neutral palette, and subtle boho detailing create a warm and inviting aesthetic that works beautifully with modern farmhouse interiors.</p><p>Pair them with a chunky knit blanket, wooden accents, and dried pampas grass for an effortless Instagram-worthy setup.</p><h2>What We Tested</h2><p>We looked at versatility, visual appeal, and styling flexibility. These scored high because they can easily refresh a living room, bedroom, reading nook, or guest room without overwhelming the space.</p><h2>Who Should Buy This</h2><ul><li>Homeowners who love neutral and minimalist decor</li><li>Renters looking for affordable decor upgrades</li><li>Farmhouse and boho interior design lovers</li><li>Anyone wanting a cozy, warm, aesthetic home vibe</li><li>People creating Pinterest-inspired living spaces</li></ul><p>If your current couch feels boring, these pillow covers are one of the easiest upgrades you can make.</p>"
+  }
+]
