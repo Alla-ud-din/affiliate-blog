@@ -72,7 +72,7 @@
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 0;
-  aspect-ratio: 16/9;
+  aspect-ratio: 2 / 3;
   background: #f0ebe3;
 }
 
@@ -273,12 +273,13 @@
   margin: 40px 0;
   border-radius: 4px;
   overflow: hidden;
+  aspect-ratio: 2 / 3;
 }
 
 .secondaryImg img {
   width: 100%;
   object-fit: cover;
-  max-height: 400px;
+  height: 100%;
 }
 
 /* CTA block */
